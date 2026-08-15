@@ -20,7 +20,7 @@
 
 (use-package emacs
   :config
-  (add-to-list 'default-frame-alist '(fullscreen . fullboth))
+  ;; (add-to-list 'default-frame-alist '(fullscreen . fullboth))
   (defalias 'yes-or-no-p 'y-or-n-p)
   (dolist (mode '(text-mode-hook prog-mode-hook conf-mode-hook))
     (add-hook mode (

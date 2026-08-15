@@ -7,9 +7,10 @@
  '(display-line-numbers-type 'relative)
  '(package-selected-packages
    '(aidermacs claude-code company doom-modeline doom-themes emmet-mode
-	       exec-path-from-shell lsp-python-ms magit org-modern
-	       pi-coding-agent python-mode rainbow-delimiters
-	       restart-emacs web-mode yasnippet-capf)))
+	       exec-path-from-shell lsp-pyright lsp-python-ms magit
+	       org-modern pi-coding-agent python-mode
+	       rainbow-delimiters restart-emacs web-mode
+	       yasnippet-capf)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
